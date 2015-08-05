@@ -22,7 +22,7 @@
 }
 
 /* Mobile */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 800px) {
   .ui.container {
     width: auto;
     margin-left: 1em !important;
@@ -34,19 +34,19 @@
 }
 
 /* Tablet */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 801px) and (max-width: 991px) {
   .ui.container {
-    width: 723px;
+    width: 756px;
     margin-left: auto !important;
     margin-right: auto !important;
   }
   .ui.grid.container {
-    width: calc( 723px  +  2em ) !important;
+    width: calc( 756px  +  2em ) !important;
   }
 }
 
 /* Small Monitor */
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 992px) and (max-width: 1399px) {
   .ui.container {
     width: 933px;
     margin-left: auto !important;
@@ -58,14 +58,14 @@
 }
 
 /* Large Monitor */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1400px) {
   .ui.container {
-    width: 1127px;
+    width: 1327px;
     margin-left: auto !important;
     margin-right: auto !important;
   }
   .ui.grid.container {
-    width: calc( 1127px  +  2em ) !important;
+    width: calc( 1327px  +  2em ) !important;
   }
 }
 

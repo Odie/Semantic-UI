@@ -194,13 +194,13 @@
 
 
 /* Modal Width */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 800px) {
   .ui.modal {
     width: 95%;
     margin: 0em 0em 0em -47.5%;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 801px) {
   .ui.modal {
     width: 88%;
     margin: 0em 0em 0em -44%;
@@ -212,7 +212,7 @@
     margin: 0em 0em 0em -425px;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1400px) {
   .ui.modal {
     width: 900px;
     margin: 0em 0em 0em -450px;
@@ -238,7 +238,7 @@
 }
 
 /* Mobile */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 800px) {
   .ui.modal > .header {
     padding: 0.75rem 1rem !important;
     padding-right: 2.25rem !important;
@@ -431,13 +431,13 @@
 }
 
 /* Small Modal Width */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 800px) {
   .ui.small.modal {
     width: 95%;
     margin: 0em 0em 0em -47.5%;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 801px) {
   .ui.small.modal {
     width: 70.4%;
     margin: 0em 0em 0em -35.2%;
@@ -449,7 +449,7 @@
     margin: 0em 0em 0em -340px;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1400px) {
   .ui.small.modal {
     width: 720px;
     margin: 0em 0em 0em -360px;
@@ -466,13 +466,13 @@
 .ui.large.modal > .header {
   font-size: 1.6em;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 800px) {
   .ui.large.modal {
     width: 95%;
     margin: 0em 0em 0em -47.5%;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 801px) {
   .ui.large.modal {
     width: 88%;
     margin: 0em 0em 0em -44%;
@@ -484,7 +484,7 @@
     margin: 0em 0em 0em -510px;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1400px) {
   .ui.large.modal {
     width: 1080px;
     margin: 0em 0em 0em -540px;
